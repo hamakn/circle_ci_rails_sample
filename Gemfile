@@ -15,6 +15,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
   gem 'database_rewinder'
+  gem 'onkcop', git: 'https://github.com/onk/onkcop.git'
 end
 
 group :development do
